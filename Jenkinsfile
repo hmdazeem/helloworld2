@@ -16,7 +16,7 @@ pipeline {
         withMaven (maven: 'maven-3') {
           
            bat 'start cmd.exe /c D:\\test.bat'  
-                  }
+                  
         
       }
          
